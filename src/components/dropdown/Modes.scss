@@ -1,0 +1,50 @@
+$main-text-bg-color: #fff2e1;
+$main-text-bd-color: #f7c27d;
+
+.select {
+  height: 50px;
+  &__container {
+    height: 100%;
+    display: block;
+    @media (min-width: 767px) {
+      display: flex;
+    }
+  }
+
+  &__dropdown {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    width: 100px;
+    padding: 10px 5px;
+    margin-right: 10px;
+    font-size: 20px;
+    @media (min-width: 767px) {
+      width: 200px;
+    }
+  }
+
+  &__btn {
+    height: 100%;
+    outline: 0;
+    margin: 0;
+    padding: 0;
+    border: 1px solid $main-text-bd-color;
+    padding: 12px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: all 0.5s;
+    background-color: transparent;
+    &:hover {
+      background-color: $main-text-bd-color;
+    }
+  }
+
+  &__error {
+    color: red;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 15px;
+  }
+}

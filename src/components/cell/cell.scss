@@ -1,0 +1,10 @@
+.is-active {
+  background-color: #03a8f4;
+}
+
+.cell {
+  flex-grow: 1;
+  transition: all 0.3s;
+  border: 1px solid #000;
+  aspect-ratio: 1/1;
+}
