@@ -1,0 +1,9 @@
+.field {
+  width: 100%;
+  margin-top: 20px;
+  &__row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
